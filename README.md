@@ -36,6 +36,8 @@ GPT を使用して英語訳したバージョンのファイルです。<br>
 標準で入っている言語ファイルは余分な空白やテキストの間違いがあったので、できる限り修正した物です。<br>
 `設定 -> 言語の設定`を選択し、English_GPT を選択で適用されます。
 
+![sample2](./sample_eng.png)
+
 #### English (GPT)
 This is a file translated into English using GPT.<br>
 The standard included language file had extra spaces and text errors, so this version has been corrected as much as possible.<br>
