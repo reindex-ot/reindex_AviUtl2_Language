@@ -31,12 +31,27 @@ Root=ルート
 Layer=レイヤー: 
 Scene=シーン:
 ```
+## English_GPT.aul2 について
+GPT を使用して英語訳したバージョンのファイルです。<br>
+標準で入っている言語ファイルは余分な空白やテキストの間違いがあったので、できる限り修正した物です。<br>
+`設定 -> 言語の設定`を選択し、English_GPT を選択で適用されます。
+
+#### English (GPT)
+This is a file translated into English using GPT.<br>
+The standard included language file had extra spaces and text errors, so this version has been corrected as much as possible.<br>
+To apply it, go to `設定 → 言語の設定` and select 'English_GPT'.
 
 ## Blank_Language.aul2 について
 今後、他の言語に翻訳する方用のファイルです。<br>
 **右側の翻訳済みのテキストを消した状態**で、**翻訳すべきテキストのソースのみ**になっています。
 
 **翻訳のサンプル**を元に **Blank_Language.aul2** を編集するとその言語に訳せます。
+
+#### English (GPT)
+This file is for those who want to **translate into other languages in the future**.<br>
+It contains only the source text to be translated, with the **right-side translated text removed**.
+
+You can translate it into any language by editing **Blank_Language.aul2** using the **translation sample as a reference**.
 
 ## 言語ファイルの改変や再配布について
 改変や再配布を行うのは自由にしてくれて構いません。<br>
