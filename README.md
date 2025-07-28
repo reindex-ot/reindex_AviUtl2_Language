@@ -55,6 +55,12 @@ It contains only the source text to be translated, with the **right-side transla
 
 You can translate it into any language by editing **Blank_Language.aul2** using the **translation sample as a reference**.
 
+## 更新履歴
+- Beta 4 に対応済み
+- 個人的に修正した日本語言語ファイルを作成
+- 同時に英語も変だったことや余分な箇所などがあったので作成
+- 翻訳者が翻訳しやすくなるであろう言語ファイルのブランク版を作成
+
 ## 言語ファイルの改変や再配布について
 改変や再配布を行うのは自由にしてくれて構いません。<br>
 むしろ、Premiere Pro 風にしたり DaVinci Resolve 風に改変しても良い奴です。
