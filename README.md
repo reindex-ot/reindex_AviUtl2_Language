@@ -32,16 +32,16 @@ Layer=レイヤー:
 Scene=シーン:
 ```
 ## English_GPT.aul2 について
-GPT を使用して英語訳したバージョンのファイルです。<br>
+GPT を使用と自分の能力を駆使して英語訳したバージョンのファイルです。<br>
 標準で入っている言語ファイルは余分な空白やテキストの間違いがあったので、できる限り修正した物です。<br>
 `設定 -> 言語の設定`を選択し、English_GPT を選択で適用されます。
 
 ![sample2](./sample_eng.png)
 
 #### English (GPT)
-This is a file translated into English using GPT.<br>
+`English_GPT.aul2` is English translated language file, created using GPT and my own skills.<br>
 The standard included language file had extra spaces and text errors, so this version has been corrected as much as possible.<br>
-To apply it, go to `設定 → 言語の設定` and select 'English_GPT'.
+To apply it, go to `設定 -> 言語の設定` and select `English_GPT`.
 
 ## Blank_Language.aul2 について
 今後、他の言語に翻訳する方用のファイルです。<br>
