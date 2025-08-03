@@ -1,6 +1,6 @@
-# AviUtl2 非公式言語ファイル
+# AviUtl2 (AviUtl ExEdit2) 非公式言語ファイル
 ## このファイルについて
-個人的に修正した [AviUtl2](https://spring-fragrance.mints.ne.jp/aviutl/) の日本語言語ファイルとその他です。<br>
+個人的に修正した [AviUtl2 (AviUtl ExEdit2)](https://spring-fragrance.mints.ne.jp/aviutl/) の日本語言語ファイルとその他です。<br>
 Windows で標準的に使用されている日本語のテキストに修正 (フォルダー、名前を付けて保存、「全て」の綴りを「すべて」に変更など) や「こうした方が良いのでは？」と思う箇所を個人的に弄ってます。
 
 ![Sample](./sample.png)
