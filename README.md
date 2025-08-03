@@ -63,11 +63,8 @@ It contains only the source text to be translated, with the **right-side transla
 You can translate it into any language by editing **Blank_Language.aul2** using the **translation sample as a reference**.
 
 ## 更新履歴
-- Beta 4 に対応済み
-- 個人的に修正した日本語言語ファイルを作成
-- 同時に英語が変だったことや余分な空白などがあったので修正したものを作成 (もっと自然な英語訳にしてくれる人募集)
-- 翻訳者が翻訳しやすくなるであろう言語ファイルのブランク版を作成
-- プラグイン情報とスクリプト情報の綴りを変更 (プラグインの一覧、スクリプトの一覧に変更)
+- Beta 5 に対応
+- 英語の言語を少々調整
 
 ## 言語ファイルの改変や再配布について
 改変や再配布を行うのは自由にしてくれて構いません。<br>
