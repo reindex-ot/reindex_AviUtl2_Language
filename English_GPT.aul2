@@ -544,10 +544,10 @@ Z軸回転=Z Rotation
 ファイル=File
 プロジェクトを新規作成=New Project
 プロジェクトを開く=Open Project
-最近使ったプロジェクト=Recent Projects
-バックアップしたプロジェクト=Backup Projects
+最近使ったプロジェクト=Recent Projects…
+バックアップしたプロジェクト=Backup Projects…
 プロジェクトを保存=Save Project
-プロジェクトを別名で保存=Save Project As
+プロジェクトを別名で保存=Save Project As…
 ファイル出力=Export File
 プロジェクトを保存して終了=Save Project and Exit
 終了=Exit
@@ -763,6 +763,23 @@ PNGファイル(透過無し)=PNG File (No Transparency)
 フレーム範囲選択を解除=Clear Frame Range Selection
 フレーム範囲選択=Frame Range Selection
 マウスホイールで縦スクロール(レイヤー)=Vertical Scroll with Mouse Wheel (Layer)
+音声を分離=Separate Audio
+オブジェクト名を常に先頭から表示=Always Show Object Names from Beginning
+共通操作の設定=Common Operation
+カスタムフレーム次移動A=Next Custom Frame A
+カスタムフレーム前移動A=Previous Custom Frame A
+カスタムフレーム次移動B=Next Custom Frame B
+カスタムフレーム前移動B=Previous Custom Frame B
+カスタムフレーム次移動C=Next Custom Frame C
+カスタムフレーム前移動C=Previous Custom Frame C
+カスタムフレーム次移動D=Next Custom Frame D
+カスタムフレーム前移動D=Previous Frame D
+選択開始フレームに移動=Go to Selection Start Frame
+選択終了フレームに移動=Go to Selection End Frame
+プレビュー再生=Play
+プレビュー再生・一時停止=Play/Pause
+一時停止=Pause
+スライダーの移動量の設定=Slider Movement Settings
 
 [Message]
 ; Messages in message boxes and tooltips etc.
@@ -837,6 +854,9 @@ PNGファイル(透過無し)=PNG File (No Transparency)
 言語ファイルを設定=Set Language File
 範囲選択の開始フレームに設定=Set as Range Selection Start Frame
 範囲選択の終了フレームに設定=Set as Range Selection End Frame
+プレビュー再生=Play
+プレビュー停止=Stop
+プレビュー一時停止=Pause
 
 [Dialog]
 ; Dialog name.
@@ -928,7 +948,23 @@ YUV出力変換=YUV Output Conversion
 固定サイズ表示=Fixed Size Display
 拡大サイズ表示=Zoomed Size Display
 アプリケーションの再起動後に反映されます=Will take effect after application restart
-;OK=OK
+共通操作の設定=Common operation
+フレーム移動時の範囲選択=Select range when moving frames
+する=Enable
+しない=Disable
+Shiftキーを押しながらフレーム移動した時=When Moving Frames with Shift Key Pressed
+カスタムフレーム移動A=Custom Frame Move A
+カスタムフレーム移動B=Custom Frame Move B
+カスタムフレーム移動C=Custom Frame Move C
+カスタムフレーム移動D=Custom Frame Move D
+移動量は秒数もしくはフレーム数("5f")で指定出来ます=Movement amount can be specified in seconds or frames ("5f")
+スライダーの移動量の設定=Slider Movement Settings
+スライダーの移動量の基準=Slider Movement Reference
+固定の移動量=Fixed Movement Value
+数値の範囲とスクリーンの幅=Value Range and Screen Width
+数値の範囲とスライダーの幅=Value Range and Slider Width
+スライダーの移動量の感度=Slider Movement Sensitivity
+OK=OK
 
 [Name]
 ; Other text label.
