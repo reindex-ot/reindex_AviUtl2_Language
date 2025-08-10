@@ -538,6 +538,17 @@ Z軸回転=Z Rotation
 スワップ=Swap
 縮小回転=Scale Rotation
 キューブ回転=Cube Rotation
+未選択=Not Selected
+マップの種類=Map Type
+円周=Circumference
+シード=Seed
+距離=Distance
+速さ=Speed
+上下反転=Vertical Flip
+左右反転=Horizontal Flip
+輝度反転=Luminance Inversion
+色相反転=Hue Inversion
+透明度反転=Opacity Inversion
 
 [Menu]
 ; Popup menu and window menu.
@@ -782,6 +793,16 @@ PNGファイル(透過無し)=PNG File (No Transparency)
 プレビュー再生・一時停止=Play/Pause
 一時停止=Pause
 スライダーの移動量の設定=Slider Movement Settings
+ログをクリア=Clear log
+音声波形の表示=Show audio waveform
+音声波形表示時はオブジェクト名を非表示=Hide Object Names When Displaying Audio Waveform複製=Duplicate
+切り取りして詰める=Cut and Shift
+オブジェクトを切り取りして詰める = Cut Objects and Shift
+切り出し=Extract
+オブジェクトを切り出し=Extract Objects
+左側に詰める=Align Shift Left
+オブジェクトを左側に詰める=Align Objects Shift Left
+再生バッファの最大まで取得して再生=Fill Playback Buffer to Max and Play
 
 [Message]
 ; Messages in message boxes and tooltips etc.
@@ -859,6 +880,7 @@ PNGファイル(透過無し)=PNG File (No Transparency)
 プレビュー再生=Play
 プレビュー停止=Stop
 プレビュー一時停止=Pause
+ファイルの読み込みに失敗しました=Failed to load file
 
 [Dialog]
 ; Dialog name.
