@@ -63,10 +63,7 @@ It contains only the source text to be translated, with the **right-side transla
 You can translate it into any language by editing **Blank_Language.aul2** using the **translation sample as a reference**.
 
 ## 更新履歴
-- Beta 5 に対応
-- 英語の言語を少々調整
-- カスタムフレームの日本語の綴りを調整
-- メディアエクスプローラー: 5 と 6 のテキストがなかったことによる未翻訳問題を修正 (公式側も未修正でした)
+- Beta 6 に対応
 
 ## 言語ファイルの改変や再配布について
 改変や再配布を行うのは自由にしてくれて構いません。<br>
