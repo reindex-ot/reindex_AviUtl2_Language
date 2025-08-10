@@ -797,7 +797,7 @@ PNGファイル(透過無し)=PNG File (No Transparency)
 音声波形の表示=Show audio waveform
 音声波形表示時はオブジェクト名を非表示=Hide Object Names When Displaying Audio Waveform複製=Duplicate
 切り取りして詰める=Cut and Shift
-オブジェクトを切り取りして詰める = Cut Objects and Shift
+オブジェクトを切り取りして詰める=Cut Objects and Shift
 切り出し=Extract
 オブジェクトを切り出し=Extract Objects
 左側に詰める=Align Shift Left
