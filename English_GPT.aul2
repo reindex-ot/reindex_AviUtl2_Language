@@ -988,6 +988,7 @@ Shiftキーを押しながらフレーム移動した時=When Moving Frames with
 数値の範囲とスクリーンの幅=Value Range and Screen Width
 数値の範囲とスライダーの幅=Value Range and Slider Width
 スライダーの移動量の感度=Slider Movement Sensitivity
+音声波形キャッシュサイズ [MB]=Audio Waveform Cache Size [MB]
 OK=OK
 
 [Name]
