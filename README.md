@@ -1,9 +1,14 @@
 # AviUtl2 (AviUtl ExEdit2) 非公式言語ファイル
-## このファイルについて
+## Japanese_Mod.aul2 について
 個人的に修正した [AviUtl2 (AviUtl ExEdit2)](https://spring-fragrance.mints.ne.jp/aviutl/) の日本語言語ファイルとその他です。<br>
 Windows で標準的に使用されている日本語のテキストに修正 (フォルダー、名前を付けて保存、「全て」の綴りを「すべて」に変更など) や「こうした方が良いのでは？」と思う箇所を個人的に弄ってます。
 
 ![Sample](./sample.png)
+
+## Japanese_Mod_Emoji.aul2 について
+UI が基本的に味気ないのでメニュー部分に絵文字を入れた**だけ**のバージョンです。
+
+![sample3](./sample_emoji.png)
 
 ## 言語ファイルの内容について
 言語ファイルである、aul2 ファイルは UTF-8 なテキストファイルです。<br>
@@ -64,6 +69,7 @@ You can translate it into any language by editing **Blank_Language.aul2** using 
 
 ## 更新履歴
 - Beta 6 に対応
+- メニューに絵文字を入れた自己満バージョンを追加
 
 ## 言語ファイルの改変や再配布について
 改変や再配布を行うのは自由にしてくれて構いません。<br>
