@@ -78,6 +78,7 @@
 音量フェード=Volume Fade
 モノラル化=Mono
 音量調整=Volume Adjustment
+時間制御(オブジェクト)=
 
 ; Script name.
 震える=Shake
@@ -549,6 +550,9 @@ Z軸回転=Z Rotation
 輝度反転=Luminance Inversion
 色相反転=Hue Inversion
 透明度反転=Opacity Inversion
+トラック=Track
+繰り返し=Loop
+コマ落ち=Frame drop
 
 [Menu]
 ; Popup menu and window menu.
@@ -803,6 +807,11 @@ PNGファイル(透過無し)=PNG File (No Transparency)
 左側に詰める=Align Shift Left
 オブジェクトを左側に詰める=Align Objects Shift Left
 再生バッファの最大まで取得して再生=Fill Playback Buffer to Max and Play
+ズームイン(レイヤー)=Zoom In (Layer)
+ズームアウト(レイヤー)=Zoom Out (Layer)
+以降を切り取り=Trim after
+以降をコピー=Copy remaining
+ウェブサイト=Website
 
 [Message]
 ; Messages in message boxes and tooltips etc.
