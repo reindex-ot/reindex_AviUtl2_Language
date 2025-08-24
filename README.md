@@ -69,7 +69,9 @@ It contains only the source text to be translated, with the **right-side transla
 You can translate it into any language by editing **Blank_Language.aul2** using the **translation sample as a reference**.
 
 ## 更新履歴
-- Beta 7 に対応
+- Beta 8 に対応
+- アプリケーションデータの項目のテキストを変更 (テキストが「各種ディレクトリを開く」に変わっています)
+- 「～フォルダーを開く」のテキストをシンプルな文章に変更
 
 ## 言語ファイルの改変や再配布について
 改変や再配布を行うのは自由にしてくれて構いません。<br>
