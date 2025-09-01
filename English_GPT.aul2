@@ -8,7 +8,7 @@
 画像ファイル=Image File
 音声ファイル=Audio File
 テキスト=Text
-図形=Shape
+図形=Figure
 シーン=Scene
 フレームバッファ=Frame Buffer
 直前オブジェクト=Previous Object
@@ -128,9 +128,9 @@
 ドア(シーンチェンジ)=Door (Scene Change)
 起き上がる(シーンチェンジ)=Rising (Scene Change)
 リール回転(シーンチェンジ)=Reel Rotation (Scene Change)
-図形ワイプ(シーンチェンジ)=Shape Wipe (Scene Change)
-図形で隠す(シーンチェンジ)=Hide with Shape (Scene Change)
-図形で隠す(放射)(シーンチェンジ)=Hide with Radial Shape (Scene Change)
+図形ワイプ(シーンチェンジ)=Figure Wipe (Scene Change)
+図形で隠す(シーンチェンジ)=Hide with Figure (Scene Change)
+図形で隠す(放射)(シーンチェンジ)=Hide with Figure (Scene Change)
 砕け散る(シーンチェンジ)=Scatter (Scene Change)
 ページめくり(シーンチェンジ)=Page Turn (Scene Change)
 手ぶれ=Camera Shake
@@ -225,7 +225,7 @@ Z軸回転=Z Rotation
 色=Color
 飽和する=Saturate
 視野角=Field of View
-図形の種類=Shape Type
+図形の種類=Figure Type
 マスクの種類=Mask Type
 シーンの長さを合わせる=Match Scene Length
 マスクの反転=Invert Mask
@@ -424,7 +424,7 @@ Z軸回転=Z Rotation
 先端=Tip
 先端角度=Tip Angle
 先端位置補正=Tip Position Correction
-先端図形=Tip Shape
+先端図形=Tip Figure
 固定速度=Fixed Speed
 描画間隔=Drawing Interval
 最小間隔=Minimum Interval
@@ -439,7 +439,7 @@ Z軸回転=Z Rotation
 水平境界ぼかし=Horizontal Edge Blur
 手前に開く=Open to Front
 ディレイ時間=Delay Time
-図形名=Shape Name
+図形名=Figure Name
 エッジ角度=Edge Angle
 エッジ幅=Edge Width
 エッジ高さ=Edge Height
@@ -761,7 +761,7 @@ PNGファイル(透過無し)=PNG File (No Transparency)
 スクリプトフォルダ=Script
 プラグインフォルダ=Plugin
 エイリアスファイルフォルダ=Alias
-図形ファイルフォルダ=Shape
+図形ファイルフォルダ=Figure
 遷移画像ファイルフォルダ=Transition Image
 初期値・プリセットフォルダ=Default/Preset
 バックアップファイルフォルダ=Backup
@@ -816,6 +816,11 @@ PNGファイル(透過無し)=PNG File (No Transparency)
 音量レベルメーターの設定=Volume Level Meter Settings
 中間点を均等配置=Evenly spaced midpoints
 選択区間の長さを変更=Modify the length of the selected section
+再生中のみ音量レベルメーターを反映=Meter Response During Playback Only
+YUV色空間=YUV Color Space
+YUVレンジ=YUV Range
+自動=Auto
+
 [Message]
 ; Messages in message boxes and tooltips etc.
 ファイル出力中=Exporting File
@@ -1004,7 +1009,12 @@ Shiftキーを押しながらフレーム移動した時=When Moving Frames with
 音量レベルメーターの設定=Volume Level Meter
 音量レベル(赤)のしきい値 [dB]=Threshold for red volume level [dB]
 音量レベル(黄)のしきい値 [dB]=Threshold for yellow volume level [dB]
+YUV色空間=YUV Color Space
+YUVレンジ=YUV Range
+ファイル出力時にYUVが利用される場合の設定です=These are settings for using YUV when exporting a file.
+プロジェクトを新規作成=New Project
 ;OK=OK
+
 [Name]
 ; Other text label.
 ;Root=Root
