@@ -627,7 +627,7 @@ Z軸回転=Z Rotation
 編集視点(カメラ制御)表示=Show Edit Viewpoint (Camera Control)
 クリッピングオブジェクトの視覚化=Visualize Clipping Objects
 プレビュー再生・停止=Preview Play/Stop
-設定=Settings
+設定=Preferences
 ショートカットキーの設定=Shortcut Key
 オブジェクト追加メニューの設定=Object Add Menu
 トラックバー移動メニューの設定=Trackbar Move Menu
@@ -820,6 +820,8 @@ PNGファイル(透過無し)=PNG File (No Transparency)
 YUV色空間=YUV Color Space
 YUVレンジ=YUV Range
 自動=Auto
+グリッド(XY軸)の表示=Show Grid (X/Y Axis)
+グリッド(XY軸)の設定=Grid (X/Y Axis) Settings
 
 [Message]
 ; Messages in message boxes and tooltips etc.
@@ -898,6 +900,8 @@ YUVレンジ=YUV Range
 プレビュー停止=Stop
 プレビュー一時停止=Pause
 ファイルの読み込みに失敗しました=Failed to load file
+YUVの設定=YUV Settings
+フォーマットが正しくありません=Invalid format
 
 [Dialog]
 ; Dialog name.
@@ -1013,7 +1017,20 @@ YUV色空間=YUV Color Space
 YUVレンジ=YUV Range
 ファイル出力時にYUVが利用される場合の設定です=These are settings for using YUV when exporting a file.
 プロジェクトを新規作成=New Project
+スクリプト・プラグインの追加=Add Plugin/Script
+下記のプラグインまたはスクリプトのファイルが追加されています=New Plugin/Script files detected!
+プラグインやスクリプトは有用ですがマルウェア等のプログラムが含まれるリスクがあります=Plugins and scripts are useful, but may contain malware!
+信頼できる開発元から提供されていることを確認して使用してください=Only use plugins and scripts from trusted sources.
+※使用しない場合はファイルを削除してください=If you don't use it, we recommend deleting the file.
+このプラグイン・スクリプトを信頼して使用する=I trust this Plugin/Script
+使用しない=Don't use
+グリッド(XY軸)の設定=Grid (X/Y Axis) Settings
+横幅=Width
+縦幅=Height
+任意X軸=Custom X-Axis
+任意Y軸=Custom Y-Axis
 ;OK=OK
+;Cancel=Cancel
 
 [Name]
 ; Other text label.
