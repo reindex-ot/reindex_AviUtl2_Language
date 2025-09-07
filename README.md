@@ -69,9 +69,10 @@ It contains only the source text to be translated, with the **right-side transla
 You can translate it into any language by editing **Blank_Language.aul2** using the **translation sample as a reference**.
 
 ## 更新履歴
-- Beta 9 に対応
-- 図形の英語の綴りを修正
-- 設定内の`言語`を`言語 (Language)`に変更
+- Beta 10 に対応
+- 日本語のテキストの綴りをある程度修正
+- 英語のテキストの綴りをほんの少し修正
+- プラグイン、スクリプトをインストール時のダイアログテキストの日本語と英語訳を追加 (日本語は自然であろう日本語、英語は文字切れがあったままなので修正)
 
 ## 言語ファイルの改変や再配布について
 改変や再配布を行うのは自由にしてくれて構いません。<br>
