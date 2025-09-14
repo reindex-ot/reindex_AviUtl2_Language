@@ -79,6 +79,9 @@
 モノラル化=Mono
 音量調整=Volume Adjustment
 時間制御(オブジェクト)=
+オーディオバッファ=Audio Buffer
+モデルファイル=Model File
+座標系を調整=Coordinates Adjustment
 
 ; Script name.
 震える=Shake
@@ -553,6 +556,7 @@ Z軸回転=Z Rotation
 トラック=Track
 繰り返し=Loop
 コマ落ち=Frame drop
+オーディオバッファをクリア=Clear Audio Buffer
 
 [Menu]
 ; Popup menu and window menu.
@@ -822,6 +826,10 @@ YUVレンジ=YUV Range
 自動=Auto
 グリッド(XY軸)の表示=Show Grid (X/Y Axis)
 グリッド(XY軸)の設定=Grid (X/Y Axis) Settings
+ファイルから選択=Select from File
+連番ファイル出力=Output Files in Sequence
+画面の設定=Display
+ファイル出力の設定=Export File
 
 [Message]
 ; Messages in message boxes and tooltips etc.
@@ -902,6 +910,10 @@ YUVレンジ=YUV Range
 ファイルの読み込みに失敗しました=Failed to load file
 YUVの設定=YUV Settings
 フォーマットが正しくありません=Invalid format
+ファイル・シーンから選択=Select from File or Scene
+ファイルから選択=Select from File
+対応していないファイル拡張子です=Unsupported file format
+同名のファイルが存在しています\n上書きしますか？=File with the same name already exists.\nDo you want to overwrite it?
 
 [Dialog]
 ; Dialog name.
@@ -992,7 +1004,7 @@ YUV出力変換=YUV Output Conversion
 高DPI表示=High DPI Display
 固定サイズ表示=Fixed Size Display
 拡大サイズ表示=Zoomed Size Display
-アプリケーションの再起動後に反映されます=Will take effect after application restart
+アプリケーションの再起動後に反映されます=Will take effect after AviUtl ExEdit2 restart
 共通操作の設定=Common Operation
 フレーム移動時の範囲選択=Select Range When Moving Frames
 する=Enable
@@ -1015,7 +1027,7 @@ Shiftキーを押しながらフレーム移動した時=When Moving Frames with
 音量レベル(黄)のしきい値 [dB]=Threshold for yellow volume level [dB]
 YUV色空間=YUV Color Space
 YUVレンジ=YUV Range
-ファイル出力時にYUVが利用される場合の設定です=These are settings for using YUV when exporting a file.
+ファイル出力時にYUVが利用される場合の設定です=Settings for YUV used in file output
 プロジェクトを新規作成=New Project
 スクリプト・プラグインの追加=Add Plugin/Script
 下記のプラグインまたはスクリプトのファイルが追加されています=New Plugin/Script files detected!
@@ -1029,6 +1041,18 @@ YUVレンジ=YUV Range
 縦幅=Height
 任意X軸=Custom X-Axis
 任意Y軸=Custom Y-Axis
+連番ファイル出力=Output Files in Sequence
+PNG透明色=PNG Transparency Color
+あり=Yes
+なし=No
+モデルデータキャッシュサイズ [MB]=Model Data Cache Size [MB]
+VRAMデータキャッシュサイズ [MB]=VRAM Data Cache Size [MB]
+画面の設定=Display
+ファイル出力の設定=Export File
+ファイル出力完了時のサウンド=Export Completion Sound
+ファイル=Browse
+決定ボタンが無い時のみ=Only When There Is No Confirm Button
+ダイアログをEnterキーで決定=Confirm Dialog with Enter Key
 ;OK=OK
 ;Cancel=Cancel
 
