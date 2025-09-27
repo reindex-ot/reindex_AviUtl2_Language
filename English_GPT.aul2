@@ -557,6 +557,10 @@ Z軸回転=Z Rotation
 繰り返し=Loop
 コマ落ち=Frame drop
 オーディオバッファをクリア=Clear Audio Buffer
+座標系を調整=Adjust coordinate-related settings
+枠色=Border color
+丸み=Corner radius
+複数=Multiple
 
 [Menu]
 ; Popup menu and window menu.
@@ -830,6 +834,10 @@ YUVレンジ=YUV Range
 連番ファイル出力=Output Files in Sequence
 画面の設定=Display
 ファイル出力の設定=Export File
+シーンを複製=Duplicate Scene
+選択オブジェクトの追従=Follow Selected Objects
+中間点の時間を表示=Show Midpoint Time
+スクロールバーを上側に表示=Show Scrollbar on Top
 
 [Message]
 ; Messages in message boxes and tooltips etc.
@@ -1053,6 +1061,8 @@ VRAMデータキャッシュサイズ [MB]=VRAM Data Cache Size [MB]
 ファイル=Browse
 決定ボタンが無い時のみ=Only When There Is No Confirm Button
 ダイアログをEnterキーで決定=Confirm Dialog with Enter Key
+シーンを複製=Duplicate Scene
+Alt+左クリックドラックで右クリックドラック操作=Assign right-drag to Alt + left-drag
 ;OK=OK
 ;Cancel=Cancel
 
