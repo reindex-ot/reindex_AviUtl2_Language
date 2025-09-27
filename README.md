@@ -73,10 +73,9 @@ It contains only the source text to be translated, with the **right-side transla
 You can translate it into any language by editing **Blank_Language.aul2** using the **translation sample as a reference**.
 
 ## 更新履歴
-- Beta 11a に対応
-- `ダイアログをEnterキーで決定`の文字列が欠落していることで翻訳できない問題を修正 (ブランクファイルも変更済み)
-- `アプリケーションを再起動後～`のアプリケーション部分を `AviUtl ExEdit2` に変更
-- その他翻訳の調整
+- Beta 13 に対応
+- `Alt+左クリックドラックで右クリックドラック操作`のテキストが混乱を招きそうだったので`右ドラッグの操作を Alt + 左ドラッグにも割り当てる`にテキストを変更
+- その他翻訳を調整
 
 ## 言語ファイルの改変や再配布について
 改変や再配布を行うのは自由にしてくれて構いません。<br>
