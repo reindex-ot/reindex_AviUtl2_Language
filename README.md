@@ -73,9 +73,9 @@ It contains only the source text to be translated, with the **right-side transla
 You can translate it into any language by editing **Blank_Language.aul2** using the **translation sample as a reference**.
 
 ## 更新履歴
-- Beta 13 に対応
-- `Alt+左クリックドラックで右クリックドラック操作`のテキストが混乱を招きそうだったので`右ドラッグの操作を Alt + 左ドラッグにも割り当てる`にテキストを変更
-- その他翻訳を調整
+- Beta 14 に対応
+- テキストを修正
+- ダイアログが表示されるコンテキストメニュー項目に三点リーダーを追加、… が付いているテキストを見るだけで把握可能になっています (参考: https://qiita.com/yaju/items/26e97fb770c97876194a)
 
 ## 言語ファイルの改変や再配布について
 改変や再配布を行うのは自由にしてくれて構いません。<br>
