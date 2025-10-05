@@ -72,6 +72,45 @@ It contains only the source text to be translated, with the **right-side transla
 
 You can translate it into any language by editing **Blank_Language.aul2** using the **translation sample as a reference**.
 
+## Tips
+翻訳するテキストをこのように変更することで一般的なキー操作を割り当てできます。<br>
+バージョン情報は英語綴りで`About`であり、`バージョン情報(&A)`と一般的な物にしましょう。<br>
+その他の英語はEtcになっていますが、本来の英語では`Miscellaneous (Misc)`なので`その他(&M)`にしています。
+
+#### 日本語
+日本語は括弧で囲いましょう。
+```
+動画ファイル=動画ファイル(&V)
+画像ファイル=画像ファイル(&I)
+音声ファイル=オーディオファイル(&A)
+テキスト=テキスト(&T)
+図形=図形(&F)
+シーン=シーン(&C)
+フレームバッファ=フレームバッファー(&F)
+直前オブジェクト=直前のオブジェクト(&P)
+その他=その他(&M)
+プラグイン情報=プラグインの一覧(&P)…
+スクリプト情報=スクリプトの一覧(&S)…
+バージョン情報=バージョン情報(&A)…
+```
+
+#### English
+英語は括弧綴りにする必要はありません。
+```
+動画ファイル=&Video File
+画像ファイル=&Image File
+音声ファイル=&Audio File
+テキスト=&Text
+図形=&Figure
+シーン=S&cene
+フレームバッファ=&Frame buffer
+直前オブジェクト=&Previous object
+その他=&Misc
+プラグイン情報=&Plugin Info…
+スクリプト情報=&Script Info…
+バージョン情報=&About…
+```
+
 ## 更新履歴
 - Beta 14 に対応
 - テキストを修正
