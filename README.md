@@ -95,7 +95,7 @@ You can translate it into any language by editing **Blank_Language.aul2** using 
 ```
 
 #### English
-英語は括弧綴りにする必要はありません。
+英語は括弧で囲う必要はありません。
 ```
 動画ファイル=&Video File
 画像ファイル=&Image File
