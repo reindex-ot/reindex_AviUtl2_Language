@@ -81,7 +81,8 @@
 時間制御(オブジェクト)=
 オーディオバッファ=Audio Buffer
 モデルファイル=Model File
-座標系を調整=Coordinates Adjustment
+枠線=Border
+拡張色設定=Extended Color Setting
 
 ; Script name.
 震える=Shake
@@ -561,14 +562,15 @@ Z軸回転=Z Rotation
 枠色=Border color
 丸み=Corner radius
 複数=Multiple
+パターン画像=Pattern Image
 
 [Menu]
 ; Popup menu and window menu.
 ファイル=File
 プロジェクトを新規作成=New Project
 プロジェクトを開く=Open Project
-最近使ったプロジェクト=Recent Projects…
-バックアップしたプロジェクト=Backup Projects…
+最近使ったプロジェクト=Recent…
+バックアップしたプロジェクト=Project Backups…
 プロジェクトを保存=Save Project
 プロジェクトを別名で保存=Save Project As…
 ファイル出力=Export File
@@ -1051,8 +1053,8 @@ YUVレンジ=YUV Range
 任意Y軸=Custom Y-Axis
 連番ファイル出力=Output Files in Sequence
 PNG透明色=PNG Transparency Color
-あり=Yes
-なし=No
+あり=Enable
+なし=Disable
 モデルデータキャッシュサイズ [MB]=Model Data Cache Size [MB]
 VRAMデータキャッシュサイズ [MB]=VRAM Data Cache Size [MB]
 画面の設定=Display
@@ -1063,6 +1065,7 @@ VRAMデータキャッシュサイズ [MB]=VRAM Data Cache Size [MB]
 ダイアログをEnterキーで決定=Confirm Dialog with Enter Key
 シーンを複製=Duplicate Scene
 Alt+左クリックドラックで右クリックドラック操作=Assign right-drag to Alt + left-drag
+キーを入力してください=Input the key
 ;OK=OK
 ;Cancel=Cancel
 
