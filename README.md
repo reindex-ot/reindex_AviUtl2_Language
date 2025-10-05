@@ -78,8 +78,7 @@ You can translate it into any language by editing **Blank_Language.aul2** using 
 その他の英語はEtcになっていますが、本来の英語では`Miscellaneous (Misc)`なので`その他(&M)`にしています。
 
 #### 日本語
-日本語は括弧で囲いましょう。<br>
-数字の箇所は囲う必要はありません。
+日本語は括弧で囲いましょう。
 ```
 動画ファイル=動画ファイル(&V)
 画像ファイル=画像ファイル(&I)
