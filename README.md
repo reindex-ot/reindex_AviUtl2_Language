@@ -75,7 +75,7 @@ You can translate it into any language by editing **Blank_Language.aul2** using 
 ## Tips
 翻訳するテキストをこのように変更することで一般的なキー操作を割り当てできます。<br>
 バージョン情報は英語綴りで`About`であり、`バージョン情報(&A)`と一般的な物にしましょう。<br>
-その他の英語はEtcになっていますが、本来の英語では`Miscellaneous (Misc)`なので`その他(&M)`にしています。
+その他の英語はEtcになっていますが、本来の英語では`Misc (Miscellaneous)`なので`その他(&M)`にしています。
 
 #### 日本語
 日本語は括弧で囲いましょう。
