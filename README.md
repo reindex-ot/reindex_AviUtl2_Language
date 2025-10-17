@@ -112,9 +112,8 @@ You can translate it into any language by editing **Blank_Language.aul2** using 
 ```
 
 ## 更新履歴
-- Beta 14 に対応
-- テキストを修正
-- ダイアログが表示されるコンテキストメニュー項目に三点リーダーを追加、… が付いているテキストを見るだけで把握可能になっています (参考: https://qiita.com/yaju/items/26e97fb770c97876194a)
+- Beta 15 に対応
+- 鬼怒川に旅行中からの作業
 
 ## 言語ファイルの改変や再配布について
 改変や再配布を行うのは自由にしてくれて構いません。<br>
