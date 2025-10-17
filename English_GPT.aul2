@@ -563,6 +563,8 @@ Z軸回転=Z Rotation
 丸み=Corner radius
 複数=Multiple
 パターン画像=Pattern Image
+影を付ける=Add shadows
+影の範囲=Shadow area
 
 [Menu]
 ; Popup menu and window menu.
@@ -1066,6 +1068,8 @@ VRAMデータキャッシュサイズ [MB]=VRAM Data Cache Size [MB]
 シーンを複製=Duplicate Scene
 Alt+左クリックドラックで右クリックドラック操作=Assign right-drag to Alt + left-drag
 キーを入力してください=Input the key
+フィルタプラグイン=
+スクリプトモジュール=
 ;OK=OK
 ;Cancel=Cancel
 
