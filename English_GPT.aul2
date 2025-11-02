@@ -167,6 +167,7 @@
 補間移動(時間制御)=Interpolated Movement (Time Control)
 ランダム移動=Random Movement
 瞬間移動=Instant Movement
+移動量指定=Movement Amount
 
 ; Settings items text
 中心X=Center X
