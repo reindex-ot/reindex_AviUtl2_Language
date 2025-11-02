@@ -117,7 +117,7 @@ You can translate it into any language by editing **Blank_Language.aul2** using 
 
 ## 更新履歴
 - Beta 18b に対応
-- `移動量指定` 文字列が欠落していたため追加 (公式版 English の修正)
+- `移動量指定` の文字列が欠落していたため追加 (公式版 English の修正)
 - テキストの修正
 
 ## 言語ファイルの改変や再配布について
