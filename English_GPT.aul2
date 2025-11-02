@@ -842,6 +842,12 @@ YUVレンジ=YUV Range
 選択オブジェクトの追従=Follow Selected Objects
 中間点の時間を表示=Show Midpoint Time
 スクロールバーを上側に表示=Show Scrollbar on Top
+ウィンドウを分離=Detach windows
+ウィンドウを統合=Dock windows
+ウィンドウのグループ化=Group windows
+音声波形を絶対値で表示=Display audio waveform as absolute value
+動画ファイルのドラッグ＆ドロップ時に音声を分離=Extract audio when dragging && dropping video files
+空のシーンへのドラッグ＆ドロップ時にシーン設定を合わせる=Match scene settings when dragging && dropping to an empty scene
 
 [Message]
 ; Messages in message boxes and tooltips etc.
@@ -926,6 +932,9 @@ YUVの設定=YUV Settings
 ファイルから選択=Select from File
 対応していないファイル拡張子です=Unsupported file format
 同名のファイルが存在しています\n上書きしますか？=File with the same name already exists.\nDo you want to overwrite it?
+プラグイン・スクリプトのインストール=Install Plugin/Script
+前回アプリケーションが正常に終了しませんでした\n\nプロジェクトを復元しますか？=The application did not close properly last time.\n\nWould you like to restore the project?
+ファイル出力を中断=Abort Export File
 
 [Dialog]
 ; Dialog name.
@@ -1068,8 +1077,15 @@ VRAMデータキャッシュサイズ [MB]=VRAM Data Cache Size [MB]
 シーンを複製=Duplicate Scene
 Alt+左クリックドラックで右クリックドラック操作=Assign right-drag to Alt + left-drag
 キーを入力してください=Input the key
-フィルタプラグイン=
-スクリプトモジュール=
+フィルタプラグイン=Filter Plugin
+スクリプトモジュール=Script Module
+プラグイン項目の右クリックメニューから設定が出来ます=Access settings via the right-click menu on the plugin item.
+選択範囲=Selected Range
+汎用プラグイン=Generic Plugin
+プラグイン・スクリプトのインストール=Install Plugin/Script
+下記のプラグインまたはスクリプトのファイルをインストールします=You are about to install the following plugin or script files.
+※インストール後にアプリケーションを再起動します=Application restarts after installation.
+インストールしない=Don't Install
 ;OK=OK
 ;Cancel=Cancel
 
