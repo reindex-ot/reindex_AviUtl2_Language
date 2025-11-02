@@ -1,5 +1,6 @@
 ; "version": "for Beta 18b",
 ; "release_date": "2025-11-03",
+;
 ; 言語の定義
 ; UTF-8で記述する
 ; ProgramData\aviutl2\Languageに配置すると言語の設定に追加される
@@ -1098,4 +1099,5 @@ Cancel=キャンセル
 Root=ルート
 Layer=レイヤー: 
 Scene=シーン: 
+
 
