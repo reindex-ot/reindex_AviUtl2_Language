@@ -13,6 +13,9 @@ UI が基本的に味気ないのでメニュー部分に絵文字を入れた**
 
 ![sample3](./sample_emoji.png)
 
+## ダウンロード
+[こちら](https://github.com/reindex-ot/reindex_AviUtl2_Language/releases/latest)から最新版をダウンロード。
+
 ## 言語ファイルの内容について
 言語ファイルである、aul2 ファイルは UTF-8 なテキストファイルです。<br>
 UTF-8 に対応したテキストエディタを使用すれば、翻訳やテキストの修正が簡易的に行えます。
