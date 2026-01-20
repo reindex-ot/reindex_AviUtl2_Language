@@ -1,6 +1,12 @@
-; AviUtl2 Language file definition
-; Write in UTF-8
-; Place it in ProgramData\aviutl2\Language to add it to the language settings.
+; AviUtl2 Language Language Definition
+; Please write in UTF-8.
+; Placing this in "ProgramData\aviutl2\Language" will add an item to the language settings.
+;
+; Using multiple periods in the filename allows it to be loaded as a differential (overlay) file.
+; By renaming the file (e.g., "English.xxx.aul2"), it will be merged as an overlay on the "English" settings.
+;
+; If a section for a filter name or script name exists, it will be referenced first.
+; For the filter name and parameter names of the "Blur" filter, the [Blur] section is referenced first.
 
 [Effect]
 ; Filter object and effect.
@@ -83,6 +89,9 @@
 モデルファイル=Model File
 枠線=Border
 拡張色設定=Extended Color Setting
+画像合成=Image Composition
+モーションブラー=Motion Blur
+ローテーション=Rotation
 
 ; Script name.
 震える=Shake
@@ -167,7 +176,7 @@
 補間移動(時間制御)=Interpolated Movement (Time Control)
 ランダム移動=Random Movement
 瞬間移動=Instant Movement
-移動量指定=Movement Amount
+移動量指定=Specify Movement Amount
 
 ; Settings items text
 中心X=Center X
@@ -566,6 +575,31 @@ Z軸回転=Z Rotation
 パターン画像=Pattern Image
 影を付ける=Add shadows
 影の範囲=Shadow area
+自動スクロール=Auto Scroll
+ゆらぎ=Fluctuation
+ゆがみ=Distortion
+起点X=Origin X
+起点Y=Origin Y
+描画=Draw
+音声=Audio
+ループ画像=Loop Image
+前方から合成=Composite from Front
+後方から合成=Composite from Back
+色情報を上書き=Overwrite Color Information
+輝度をアルファ値として上書き=Overwrite Alpha with Luminance
+輝度をアルファ値として乗算=Multiply Alpha with Luminance
+画像=Image
+領域外を透過=Clipping
+分解能=Resolution
+残像=Afterimage
+パーティクル=Particle
+出力終了調整=Output Finish Adjustment
+焦点レイヤー=Focus Layer
+深度ぼけ=Depth Blur
+水平回転=Horizontal Rotation
+垂直回転=Vertical Rotation
+90度回転=90°Rotation
+タイル風=Tile
 
 [Menu]
 ; Popup menu and window menu.
@@ -843,12 +877,69 @@ YUVレンジ=YUV Range
 選択オブジェクトの追従=Follow Selected Objects
 中間点の時間を表示=Show Midpoint Time
 スクロールバーを上側に表示=Show Scrollbar on Top
-ウィンドウを分離=Detach windows
-ウィンドウを統合=Dock windows
-ウィンドウのグループ化=Group windows
-音声波形を絶対値で表示=Display audio waveform as absolute value
-動画ファイルのドラッグ＆ドロップ時に音声を分離=Extract audio when dragging && dropping video files
-空のシーンへのドラッグ＆ドロップ時にシーン設定を合わせる=Match scene settings when dragging && dropping to an empty scene
+ウィンドウを分離=Detach Window
+ウィンドウを統合=Integrate Window
+ウィンドウのグループ化=Group Windows
+音声波形を絶対値で表示=Display Audio Waveform as Absolute Value
+動画ファイルのドラッグ＆ドロップ時に音声を分離=Separate Audio on Drag & Drop of Video File
+空のシーンへのドラッグ＆ドロップ時にシーン設定を合わせる=Match Scene Settings on Drag & Drop to Empty Scene
+プラグイン=Plugin
+レイヤーのロック=Lock Layer
+レイヤーを設定=Set Layer
+レイヤー設定=Layer Settings
+レイヤー選択時に設定対象レイヤーを変更=Change Target Layer on Layer Selection
+小=Small
+中=Medium
+大=Large
+レイヤーの縦幅を大きく=Increase Layer Height
+レイヤーの縦幅を小さく=Decrease Layer Height
+オブジェクトプリセットフォルダ=Object Preset Folder
+パレット名を変更=Rename Palette
+選択範囲を切り取り=Cut Selected Area
+選択範囲を切り取りして詰める=Cut Selected Area and Compact
+サブグループ項目を表示=Show Subgroup Items
+画像ファイルから選択=Select from Image File
+動画ファイルから選択=Select from Video File
+シーン=Scene
+プロジェクトを閉じる=Close Project
+シーンをファイルから作成=Create Scene from File
+シーンをファイルに保存=Save Scene to File
+インポート=Import
+エクスポート=Export
+プラグイン設定=Plugin Settings
+オブジェクト名を変更=Rename Object
+メディアオブジェクトを追加=Add Media Object
+フィルタオブジェクトを追加=Add Filter Object
+メディア操作=Media Operations
+メディアを上に移動=Move Media Up
+メディアを下に移動=Move Media Down
+メディアを左に移動=Move Media Left
+メディアを右に移動=Move Media Right
+メディアを拡大=Enlarge Media
+メディアを縮小=Reduce Media
+メディアを左回転=Rotate Media Left
+メディアを右回転=Rotate Media Right
+テキストを編集=Edit Text
+カーソル移動のスナップ(レイヤー)=Cursor Move Snap (Layer)
+シーン再生=Scene Playback
+音量レベルメーターの表示(プレビュー)=Show Volume Level Meter (Preview)
+音量レベルメーターの表示(シーン再生)=Show Volume Level Meter (Scene Playback)
+シーン再生・停止=Scene Playback / Stop
+シーン再生・一時停止=Scene Playback / Pause
+再生バッファの最大まで取得してシーン再生=Scene Playback After Filling Playback Buffer to Max
+ショートカットキー操作の再生はシーン再生を優先=Shortcut Key Playback Prioritizes Scene Playback
+オブジェクト複数選択=Multiple Object Selection
+開始終了点移動時に隣接オブジェクトを移動=Move Adjacent Objects When Moving Start/End Points
+カーソルをフレーム範囲で表示=Display Cursor as Frame Range
+マウスホイールの拡大縮小を現在のフレーム基準にする=Set Mouse Wheel Zoom to Current Frame
+同じシーンのフレーム移動に連動=Synchronize with Frame Movement in Same Scene
+参照シーンのフレーム移動に連動=Synchronize with Frame Movement in Reference Scene
+ヒストグラム=Histogram
+整列=Align
+オブジェクト整列=Align Objects
+オブジェクトの開始点を揃える=Align Object Start Points
+オブジェクトの終了点を揃える=Align Object End Points
+オブジェクトの開始終了点を揃える=Align Object Start and End Points
 
 [Message]
 ; Messages in message boxes and tooltips etc.
@@ -934,8 +1025,15 @@ YUVの設定=YUV Settings
 対応していないファイル拡張子です=Unsupported file format
 同名のファイルが存在しています\n上書きしますか？=File with the same name already exists.\nDo you want to overwrite it?
 プラグイン・スクリプトのインストール=Install Plugin/Script
-前回アプリケーションが正常に終了しませんでした\n\nプロジェクトを復元しますか？=The application did not close properly last time.\n\nWould you like to restore the project?
-ファイル出力を中断=Abort Export File
+前回アプリケーションが正常に終了しませんでした\n\nプロジェクトを復元しますか？=The application did not terminate properly last time.\n\nRestore the project?
+ファイル出力を中断=Interrupt File Output
+バッファリング中=Buffering
+プリセットを適用=Apply Preset
+プリセットの読み込みに失敗しました=Failed to load preset.
+現在の編集データは更新されています\nプロジェクトを保存しますか？=The current editing data has been updated.\nSave the project?
+シーンの読み込みに失敗しました=Failed to load scene.
+シーンの保存に失敗しました=Failed to save scene.
+シーンを選択=Select Scene
 
 [Dialog]
 ; Dialog name.
@@ -1080,13 +1178,29 @@ Alt+左クリックドラックで右クリックドラック操作=Assign right
 キーを入力してください=Input the key
 フィルタプラグイン=Filter Plugin
 スクリプトモジュール=Script Module
-プラグイン項目の右クリックメニューから設定が出来ます=Access settings via the right-click menu on the plugin item.
-選択範囲=Selected Range
-汎用プラグイン=Generic Plugin
-プラグイン・スクリプトのインストール=Install Plugin/Script
-下記のプラグインまたはスクリプトのファイルをインストールします=You are about to install the following plugin or script files.
-※インストール後にアプリケーションを再起動します=Application restarts after installation.
-インストールしない=Don't Install
+プラグイン項目の右クリックメニューから設定が出来ます=Can be configured from the right-click menu of plugin items.
+選択範囲=Selection
+汎用プラグイン=General Plugin
+プラグイン・スクリプトのインストール=Plugin/Script Installation
+下記のプラグインまたはスクリプトのファイルをインストールします=Install the plugin or script files below.
+※インストール後にアプリケーションを再起動します=* The application will restart after installation.
+インストールしない=Do Not Install
+自身以降のフィルタ効果を含める=Include Filter Effects from This Point Onward
+対象項目=Target Item
+対象項目から外すとプリセット適用時に元の値が維持されます=If excluded, the original value will be maintained when applying a preset.
+背景色=Background Color
+パレット名を変更=Rename Palette
+レイヤー名を変更=Rename Layer
+オブジェクト名を変更=Rename Object
+メディア移動量(ショートカットキー)=Media Movement Amount (Shortcut Key)
+メディア拡大量(ショートカットキー)=Media Enlargement Amount (Shortcut Key)
+メディア回転量(ショートカットキー)=Media Rotation Amount (Shortcut Key)
+ドラッグ時の自動スクロール速度=Auto-scroll Speed During Drag
+透明=Transparent
+出力リサイズ=Output Resize
+音声出力=Audio Output
+出力設定はファイル出力時に適用されます=Output settings are applied during file export.
+基準フレーム上のオブジェクトを伸長する=Extend Objects on the Reference Frame
 ;OK=OK
 ;Cancel=Cancel
 
@@ -1095,3 +1209,7 @@ Alt+左クリックドラックで右クリックドラック操作=Assign right
 ;Root=Root
 Layer=Layer: 
 Scene=Scene: 
+最小=Min
+最大=Max
+平均=Average
+中央=Med
