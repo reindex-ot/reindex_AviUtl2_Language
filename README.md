@@ -115,11 +115,6 @@ You can translate it into any language by editing **Blank_Language.aul2** using 
 バージョン情報=&About…
 ```
 
-## 更新履歴
-- Beta 18b に対応
-- `移動量指定` の文字列が欠落していたため追加 (公式版 English の修正)
-- テキストの修正
-
 ## 言語ファイルの改変や再配布について
 改変や再配布を行うのは自由にしてくれて構いません。<br>
 むしろ、Premiere Pro 風にしたり DaVinci Resolve 風に改変しても良い奴です。
